@@ -106,3 +106,4 @@
 
 # Signal taps
 *.stp
+.gitignore.txt
