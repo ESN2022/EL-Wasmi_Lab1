@@ -31,4 +31,21 @@ Au cours du projet, j'ai réalisé les étapes suivantes :
 - Création d’une nouvelle application Nios II sur Eclipse, nommée “Lab1_interrupt”.
 - Mise en place d’un nouveau code prenant en compte les interruptions du bouton et des commutateurs pour contrôler la poursuite des LED.
 
+
+
+
+voici le designe final dans Qsys : 
+
+![arch](https://user-images.githubusercontent.com/75042681/212986084-e634585f-3ee5-48d8-94d9-8f3bac67383e.PNG)
+
+Le dossier "app " contient deux fichiers principaux: "main" et "main_interrupt". Le fichier "main" contient le code pour un chenillard de LED utilisant la méthode de pooling, tandis que "main_interrupt" contient le code pour un chenillard de LED utilisant les interruptions. Chacun de ces fichiers est accompagné de son propre fichier "makefile" pour compiler et exécuter le code. 
+
 Les résultats obtenus ont montré que le système était capable de contrôler la vitesse et le déclenchement du chenillard de LED en utilisant un bouton et des commutateurs. La méthode d'interruption a également permis d'améliorer l'efficacité du système.
+
+
+
+https://user-images.githubusercontent.com/75042681/212987213-b542b957-201c-4b5b-9d8c-02882a15930c.mp4
+
+# Conclusion :
+
+Dans l'ensemble, le lab1 "Let there be light" a été un exercice intéressant et instructif. J'ai pu mettre en pratique mes connaissances en matière de la conception conjointe en utilisant une carte Altera DE10-Lite. En utilisant des outils tels que Qsys et Nios II, j'ai pu créer une architecture système pour contrôler un chenillard de LED en utilisant des entrées telles que des boutons et des Switch. J'ai également appris à utiliser les interruptions pour améliorer les performances du système en évitant de recourir à la méthode de pooling. 
