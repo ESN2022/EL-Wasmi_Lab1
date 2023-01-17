@@ -13,7 +13,9 @@ Avant de commencer le projet, j'ai commencé par concevoir l'architecture pour c
 
 Voici un schéma de l'architecture système :
 
-![arch](https://user-images.githubusercontent.com/75042681/212773375-1219b140-77f2-434b-8b0c-b91c39139b5f.PNG)
+![arch](https://user-images.githubusercontent.com/75042681/213020251-74d2d2a9-cf18-42fd-87c6-4726c6c88ac5.PNG)
+
+
 
 # Progress, results :
 Au cours du projet, j'ai réalisé les étapes suivantes :
@@ -36,7 +38,8 @@ Au cours du projet, j'ai réalisé les étapes suivantes :
 
 voici le designe final dans Qsys : 
 
-![arch](https://user-images.githubusercontent.com/75042681/212986084-e634585f-3ee5-48d8-94d9-8f3bac67383e.PNG)
+![arch_final](https://user-images.githubusercontent.com/75042681/213018759-b429be1b-e10a-4762-9623-4eb828ba8ad9.PNG)
+
 
 Le dossier "app " contient deux fichiers principaux: "main" et "main_interrupt". Le fichier "main" contient le code pour un chenillard de LED utilisant la méthode de pooling, tandis que "main_interrupt" contient le code pour un chenillard de LED utilisant les interruptions. Chacun de ces fichiers est accompagné de son propre fichier "makefile" pour compiler et exécuter le code. 
 
